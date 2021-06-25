@@ -991,10 +991,6 @@ h3{
 
 @media (max-width:910px){
 
-    .portfolio-project .projects img{
-        width: 19rem;
-    }
-
     .portfolio-contact .contact,
     .portfolio-price .price-flex,
     .project-done .done-flex,
@@ -1053,6 +1049,10 @@ h3{
 }
 
 @media(max-width:768px){
+
+    header{
+        height: 60vh;
+    }
 
     header .navigation li{
         opacity: 0;
@@ -1193,6 +1193,7 @@ h3{
         width: 100%;
         margin-top: 5rem;
     }
+
 }
 @media (max-width:600px){
 
@@ -1295,12 +1296,16 @@ h3{
             margin: 0 auto;
         }
 
+        .portfolio-contact .email h1{
+            font-size: 1rem;
+        }
+
     }
 
-    @media (max-width:390px){
+    @media (max-width:400px){
 
         .portfolio-contact .email h1{
-            font-size: 1.2rem;
+            font-size: 1rem;
         }
 
         .portfolio-contact .social-icon i{
