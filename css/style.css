@@ -144,13 +144,13 @@ header .header-container{
     width: 20rem;
 }
 
-@media only screen and (max-width:1300px){
+@media (max-width:1024px){
     .header-container img{
-        width: 21rem;
+        width: 25rem;
     }
 
     header{
-        height: 100vh;
+        max-height: 70vh;
     }
 }
 
@@ -1018,10 +1018,15 @@ h3{
     .portfolio-project .projects img{
         width: 19rem;
     }
+
     
 }
 
 @media (max-width:910px){
+
+    header{
+        max-height: 100vh;
+    }
 
     .portfolio-contact .contact,
     .portfolio-price .price-flex,
